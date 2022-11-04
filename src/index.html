@@ -2,13 +2,62 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
+    <title>Card Validation</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/198c815352.js"></script>
+    <br/>
+    <h1>VALIDA TU TARJETA DE CREDITO</h1>
   </head>
+  
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
+    
+    <main class="mt-30">
+      <section class="credit-card d-flex flex-column justify-content-between m-auto">
+        <div class="text-right">
+          
+        </div>
+        <div>
+          <p class="text-black font-number size-card-number" id="numero-tarjeta">xxxxxxxxxxxxxxxx</p>
+        </div>
+        <div class="d-flex justify-content-between text-black font-barlow-sc text-uppercase">
+          <div>
+            <p class="size-card-info">titular de la tarjeta</p>
+            <p class="size-card-user" id="nombre-tarjeta">D.Rocha</p>
+          </div>
+          
+            
+          
+        </div>
+      </section>
+      <section class="user-interaction m-auto font-barlow-sc">
+        <div id="card-details">
+          <h2 class="text-lila">LLENA LOS SIGUIENTES CAMPOS:</h2>
+          <form >
+            <div class="form-card">
+              <label for="card-number-input">Número de la tarjeta</label>
+              <input type="text" pattern="[0-9]{0,16}" id="card-number" maxlength="16" class="font-number ">
+            </div>
+            <div class="form-card">
+              <label for="card-name-input">Titular</label>
+              <input type="text" id="card-name"  class="font-barlow-sc">
+            </div>
+            <label id="validacion" class="text-orange font-barlow"></label> <br/>
+            <br/> 
+            
+            <button type="submit"  class="btn font-barlow-sc  d-flex m-auto">refrescar</button>
+          </form>
+        </div>
+        
+
+          
+
+      </section>
+      
+    </main>
+    <footer>Hecho por Daniela Rocha</footer>
+     
+  
+    
+    <script type="module" src="index.js"></script>
   </body>
 </html>

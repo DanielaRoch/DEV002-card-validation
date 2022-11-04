@@ -1,0 +1,177 @@
+
+@import url('https://fonts.googleapis.com/css?family=Barlow|Major+Mono+Display&display=swap');
+
+
+
+body {
+  background: rgb(247, 186, 221);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+ 
+}
+
+.font-barlow-sc {
+  font-family: 'Barlow', cursive;
+}
+
+.font-number {
+  font-family: 'Major Mono Display', monospace;
+  color: rgb(black,black, black);
+}
+
+.p-30 {
+  padding: 30px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.credit-card {
+  box-sizing: content-box;
+  width: 350px;
+  height: 190px;
+  background: rgb(187, 102, 236) url('https://cdn4.vectorstock.com/i/1000x1000/28/58/polygonal-square-background-colors-from-green-vector-12102858.jpg');
+  background-size: cover;
+  border-radius: 15px;
+  padding: 30px;
+  -webkit-box-shadow: 0px 5px 30px 0px rgba(19, 18, 18, 0.3);
+  -moz-box-shadow: 0px 5px 30px 0px rgba(5, 5, 5, 0.3);
+  box-shadow: 0px 5px 30px 0px rgba(15, 15, 15, 0.3);
+  position: relative;
+  z-index: 1;
+}
+
+
+
+
+.text-black {
+  color: rgb(10, 10, 10);
+}
+
+.text-blue {
+  color: rgb(7, 31, 73);
+}
+
+.text-gray {
+  color: rgb(7, 6, 6);
+}
+
+.text-orange{
+  color: rgb(255, 69,0);
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+.font-barlow{
+font-family:'Barlow' Arial, Helvetica, sans-serif;
+}
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.size-card-info {
+  font-size: 0.55rem;
+  letter-spacing: 0.2rem;
+  line-height: 1rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: medium;
+}
+
+.size-card-user {
+  font-size: 1rem;
+}
+
+.size-card-number {
+  font-size: 2rem;
+}
+
+
+
+
+
+.user-interaction {
+  padding: 190px 30px 30px;
+  max-width: 600px;
+  /* margin: 30px;
+  transform: translateY(-190px); */
+  margin: -150px auto 30px;
+  -webkit-box-shadow: 0px 5px 30px 0px rgba(12, 11, 11, 0.3);
+  -moz-box-shadow: 0px 5px 30px 0px rgba(5, 5, 5, 0.3);
+  box-shadow: 0px 5px 30px 0px rgba(12, 12, 12, 0.3);
+}
+
+.form-card {
+  margin-bottom: 30px;
+}
+
+.user-interaction h2 {
+  margin-bottom: 15px;
+}
+
+.form-card label {
+  display: block;
+  margin-bottom: 5px;
+  color: rgb(14, 12, 12);
+  
+}
+
+.form-card input {
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid rgb(194, 194, 194);
+  color: rgb(19, 18, 18);
+  width: 100%;
+  outline: none;
+}
+
+.btn {
+  padding: 15px;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  border-radius: 10px;
+  background-color: rgb(37,92,190);
+  color: rgb(255,255,255);
+  border: rgb(37,92,190);
+  outline: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+html, footer {
+  text-align: center;
+  color: rgb(116, 50, 96);
+}
+
