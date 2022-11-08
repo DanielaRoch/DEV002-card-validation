@@ -9,7 +9,9 @@ const validator = {
         number = parseInt(arraySum[0]) + parseInt(arraySum[1]);
       }
       arrayNumber[index] = number;
-    }
+      console.log("Array:", arrayNumber);
+
+     } 
     var result = 0;
     for (let index = 0; index < arrayNumber.length; index++) {
       result = result + parseInt(arrayNumber[index]);
